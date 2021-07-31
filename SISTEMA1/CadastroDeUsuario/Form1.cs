@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CadastroDeUsuario
 {
-    public partial class Form1 : Form
+    public partial class frmCadastrarUsuarios : Form
     {
-        public Form1()
+        public frmCadastrarUsuarios()
         {
             InitializeComponent();
+        }
+
+        private void frmCadastrarUsuarios_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
